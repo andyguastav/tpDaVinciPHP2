@@ -7,7 +7,8 @@
       "imagen": "assets/imgs/is_this_it.png",
       "discografica": "RCA Records",
       "productor": "Gordon Raphael",
-      "genero": "Indie rock"
+      "genero": "Indie rock",
+      "precio":"$ 10.23"
     },
     {
       "cd_id": 2,
@@ -17,7 +18,8 @@
       "imagen": "assets/imgs/room_on_fire.png",
       "discografica": "RCA Records",
       "productor": "Gordon Raphael",
-      "genero": "Indie rock"
+      "genero": "Indie rock",
+      "precio":"$ 12.36"
     },
     {
       "cd_id": 3,
@@ -27,7 +29,8 @@
       "imagen": "assets/imgs/first_impressions_of_earth.png",
       "discografica": "RCA Records",
       "productor": "Gordon Raphael",
-      "genero": "Indie rock"
+      "genero": "Indie rock",
+      "precio":"$ 13.36"
     },
     {
       "cd_id": 4,
@@ -37,7 +40,8 @@
       "imagen": "assets/imgs/angles.png",
       "discografica": "RCA Records",
       "productor": "Gus Oberg, Joe Chicarelli",
-      "genero": "Indie rock"
+      "genero": "Indie rock",
+      "precio":"$ 14.32"
     },
     {
       "cd_id": 5,
@@ -47,7 +51,8 @@
       "imagen": "assets/imgs/comedown_machine.png",
       "discografica": "RCA Records",
       "productor": "Gus Oberg, Joe Chicarelli",
-      "genero": "Indie rock"
+      "genero": "Indie rock",
+      "precio":"$ 11.83"
     },
     {
         "cd_id": 6,
@@ -57,7 +62,8 @@
         "imagen": "assets/imgs/the_new_abnormal.png",
         "discografica": "Cult Records",
         "productor": "Rick Rubin",
-        "genero": "Indie rock"
+        "genero": "Indie rock",
+        "precio":"$ 13.20"
       },
       {
         "cd_id": 7,
@@ -67,7 +73,8 @@
         "imagen": "assets/imgs/bleach.png",
         "discografica": "SUB POP",
         "productor": "Jack Endino",
-        "genero": "Grunge"
+        "genero": "Grunge",
+        "precio":"$ 12.36"
       },
       {
         "cd_id": 8,
@@ -77,7 +84,8 @@
         "imagen": "assets/imgs/nevermind.png",
         "discografica": "DGC Records",
         "productor": "Butch Vig",
-        "genero": "Grunge"
+        "genero": "Grunge",
+        "precio":"$ 16.35"
       },
       {
         "cd_id": 9,
@@ -87,7 +95,8 @@
         "imagen": "assets/imgs/incesticide.png",
         "discografica": "DGC Records",
         "productor": "Jack Endino",
-        "genero": "Grunge"
+        "genero": "Grunge",
+        "precio":"$ 11.46"
       },
       {
         "cd_id": 10,
@@ -97,7 +106,8 @@
         "imagen": "assets/imgs/in_utero.png",
         "discografica": "DGC Records",
         "productor": "Steve Albini, Scott Litt",
-        "genero": "Grunge"
+        "genero": "Grunge",
+        "precio":"$ 12.36"
       },
       {
         "cd_id": 11,
@@ -107,7 +117,8 @@
         "imagen": "assets/imgs/mtv_unplugged.png",
         "discografica": "Geffen Records",
         "productor": "Jack Endino",
-        "genero": "Grunge"
+        "genero": "Grunge",
+        "precio":"$ 14.06"
       },
       {
         "cd_id": 12,
@@ -117,6 +128,7 @@
         "imagen": "assets/imgs/nirvana.png",
         "discografica": "DGC Records",
         "productor": "Jack Endino",
-        "genero": "Grunge"
+        "genero": "Grunge",
+        "precio":"$ 18.36"
       }
   ]  
