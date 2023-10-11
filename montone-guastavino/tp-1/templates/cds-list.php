@@ -22,6 +22,7 @@
                 echo '<img src="' . $cd['imagen'] . '" alt="' . '" class="cd-image">';
                 echo '<h2 class="cd-title">' . $cd['titulo'] . '</h2>';
                 echo '<p class="cd-sinopsis">' . $cd['sinopsis'] . '</p>';
+                echo '<p class="cd-precio">' . $cd['precio'] . '</p>';
                 echo '</a>';
                 echo '<a class="cd-button" href="index.php?seccion=detalle&cd_id=' . $cd['cd_id'] . '">Ver Detalle</a>';
                 echo '</div>';
