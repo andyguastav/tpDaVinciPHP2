@@ -6,7 +6,7 @@
     <title>Detalles del CD</title>
     <link rel="stylesheet" href="./assets/css/style.css"> 
 </head>
-<body style="background-color: #f9f9ee;">
+<body id ="bodyCdsDetail">
     <main>
     <div class="cd-container">
         <?php

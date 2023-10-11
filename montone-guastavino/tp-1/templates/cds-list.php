@@ -6,7 +6,7 @@
     <title>Listado de CDs</title>
     <link rel="stylesheet" href="./assets/css/style.css"> 
 </head>
-<body style="background-color: #f9f9ee;">
+<body class="bodyFondoCds">
     <main>
     <div class="cd-container">
         <ul>

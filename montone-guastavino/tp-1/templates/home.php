@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body style="background-image: url('assets/imgs/musica-arte-scaled.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; background-attachment: fixed; ">
+<body id = "styleBodyHome">
     <section class="home-section">
         <div class="home-content">
             <h2>¡Bienvenidos a Music Shop!</h2>
