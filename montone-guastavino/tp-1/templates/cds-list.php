@@ -9,7 +9,8 @@
 
             // Recorre los CDs y muestra la lista
             foreach ($cdsData as $cd) {
-                echo '<div class="cd-card">';
+                echo '<li class="cd-card">';
+                echo '<div>';
                 echo '<a href="index.php?seccion=detalle&cd_id=' . $cd['cd_id'] . '">';
                 echo '<img src="' . $cd['imagen'] . '" alt="' . '" class="cd-image">';
                 echo '<h2 class="cd-title">' . $cd['titulo'] . '</h2>';
@@ -18,6 +19,7 @@
                 echo '</a>';
                 echo '<a class="cd-button" href="index.php?seccion=detalle&cd_id=' . $cd['cd_id'] . '">Ver Detalle</a>';
                 echo '</div>';
+                echo '</li>';
             }
             ?>
         </ul>
