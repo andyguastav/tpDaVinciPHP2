@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body id = "styleBodyHome">
-    <section class="home-section">
+
+
+    <section class="home-section" id = "styleBodyHome">
         <div class="home-content">
             <h2>¡Bienvenidos a Music Shop!</h2>
             <h3>Tu tienda de música favorita</h3>
@@ -16,5 +9,3 @@
             <a class="btn" href="index.php?seccion=productos">Ver productos</a>
         </div>
     </section>
-</body>
-</html>
