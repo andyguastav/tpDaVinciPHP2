@@ -3,7 +3,7 @@ Materia: Programación Web
 Cuatrimestre: Agosto-Diciembre 2023 - 3er Cuatrimestre
 Turno: Mañana
 Comisión:DWM3BV
-Nombre: Andrés Guastavino
+Nombres: Andrés Guastavino - Matias Montone
 Profesor: Santiago Gallino
 Concepto de Entrega: 1er Parcial
 
