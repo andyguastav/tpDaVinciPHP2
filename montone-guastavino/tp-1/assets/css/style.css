@@ -1,3 +1,11 @@
+#subtituloHome {
+    font-size: 1.5rem;
+    font-weight: bold; 
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    display: inline-block;
+    width: 100%;
+}
 body{
 	margin: 0;
 	padding-bottom: 0;
