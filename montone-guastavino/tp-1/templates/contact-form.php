@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="./assets/css/style.css"> 
-</head>
-<body>
+
     <main>
     <div class="cd-container">
     <form class="contact-form" action="procesar-formulario.php" method="post">
@@ -23,5 +15,4 @@
     </form>
     </div>
     </main>
-</body>
-</html>
+

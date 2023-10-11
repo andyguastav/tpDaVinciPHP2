@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalles del CD</title>
-    <link rel="stylesheet" href="./assets/css/style.css"> 
-</head>
-<body id ="bodyCdsDetail">
-    <main>
+
+    <main class ="bodyFondoCds">
     <div class="cd-container">
         <?php
          // Cargar la información de los CDs desde el archivo JSON
@@ -51,5 +43,3 @@
         ?>
     </div>
     </main>
-</body>
-</html>
