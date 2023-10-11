@@ -1,24 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Shop</title>
-    <link rel="icon" href="favicon.ico" sizes="any">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <script>
-        // JavaScript para el menú hamburguesa
-        document.addEventListener('DOMContentLoaded', function () {
-        const menuToggle = document.querySelector('.menu-toggle');
-        const navMenu = document.querySelector('.navbar ul');
 
-        menuToggle.addEventListener('click', function () {
-            navMenu.classList.toggle('active');
-        });
-    });
-    </script>
-</head>
-<body>
+
     <header class="header">
         <nav class="navbar">
             <h1>Music Shop</h1>
@@ -38,4 +19,3 @@
             </div>
         </nav>
     </header>
-</body>
