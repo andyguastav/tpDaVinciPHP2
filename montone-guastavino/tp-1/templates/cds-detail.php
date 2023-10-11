@@ -31,6 +31,7 @@
                 echo '<div class="cd-card-details">';
                 echo '<div class="cd-card-details-left">';
                 echo '<img src="' . $foundCd['imagen'] . '" alt="' . $foundCd['titulo'] . '">';
+                echo '<p><strong>Precio:</strong> ' . $foundCd['precio'] . '</p>';
                 echo '<a href="index.php?seccion=productos" class="cd-button">Volver</a>';
                 echo '</div>';
                 echo '<div class="cd-card-details-right">';
