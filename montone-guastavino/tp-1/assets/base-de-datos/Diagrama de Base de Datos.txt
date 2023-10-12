@@ -1,0 +1,29 @@
+
+
+**Entidad: CDs (Productos)**
+1. `CD_ID` - Clave (Clave primaria) y Atributo Simple
+2. `Título` - Atributo Simple
+3. `Discográfica` - Atributo Simple
+4. `Productor` - Atributo Simple
+5. `Género` - Atributo Simple
+6. `Sinopsis` - Atributo Simple
+7. `Precio` - Atributo Simple
+8. `Imagen` - Atributo Simple
+
+**Entidad: Usuarios**
+1. `Usuario_ID` - Clave (Clave primaria) y Atributo Simple
+2. `Nombre` - Atributo Simple
+3. `Apellido` - Atributo Simple
+4. `Correo electrónico` - Atributo Simple
+5. `Contraseña` - Atributo Simple
+
+**Entidad: Órdenes (Carrito de Compras)**
+1. `Orden_ID` - Clave (Clave primaria) y Atributo Simple
+2. `Fecha de la orden` - Atributo Simple
+3. `Estado de la orden` - Atributo Simple
+
+**Entidad: Detalles de la Orden**
+1. `Detalle_ID` - Clave (Clave primaria) y Atributo Simple
+2. `Orden_ID` - Atributo Simple
+3. `CD_ID` - Atributo Simple
+4. `Cantidad` - Atributo Simple
