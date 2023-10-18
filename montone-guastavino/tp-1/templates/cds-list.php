@@ -1,7 +1,14 @@
 <?php
-// Cargar la información de los CDs desde el archivo JSON
-$jsonFile = 'data/cds.json';
-$cdsData = json_decode(file_get_contents($jsonFile), true);
+// Incluir la conexion
+require_once __DIR__ . '/../assets/mysql/conexion.php';
+// Armar la query
+$query = "SELECT * FROM cds";
+$stmt = $db->prepare($query);
+$stmt->execute();
+
+//Fetch
+$stmt->setFetchMode(mode:PDO::FETCH_ASSOC);
+$cdsData= $stmt->fetchAll(); 
 ?>
 
 <main class="bodyFondoCds">
