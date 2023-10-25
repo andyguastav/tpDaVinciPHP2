@@ -1,4 +1,8 @@
 <?php
+//Incluir clase cds
+require_once __DIR__ . '/../classes/Cds.php';
+
+
 // Incluir la conexion
 require_once __DIR__ . '/../assets/mysql/conexion.php';
 // Armar la query
@@ -7,7 +11,7 @@ $stmt = $db->prepare($query);
 $stmt->execute();
 
 //Fetch
-$stmt->setFetchMode(mode:PDO::FETCH_ASSOC);
+$stmt->setFetchMode(PDO::FETCH_CLASS, 'Cds');
 $cdsData= $stmt->fetchAll(); 
 
 
@@ -18,7 +22,7 @@ if (isset($_GET['cd_id'])) {
     // Busca el CD correspondiente en el arreglo de datos
     $foundCd = null;
     foreach ($cdsData as $cd) {
-        if ($cd['cd_id'] === $cdId) {
+        if ($cd->cd_id === $cdId) {
             $foundCd = $cd;
             break;
         }
@@ -34,16 +38,16 @@ if (isset($_GET['cd_id'])) {
         ?>
             <div class="cd-card-details">
                 <div class="cd-card-details-left">
-                    <img src="<?= $foundCd['imagen'] ?>" alt="<?= $foundCd['titulo'] ?>">
-                    <p><strong>Precio:</strong> <?= $foundCd['precio'] ?></p>
+                    <img src="<?= $foundCd->imagen ?>" alt="<?= $foundCd->titulo ?>">
+                    <p><strong>Precio:</strong> <?= $foundCd->precio ?></p>
                     <a href="index.php?seccion=productos" class="cd-button">Volver</a>
                 </div>
                 <div class="cd-card-details-right">
-                    <h2><?= $foundCd['titulo'] ?></h2>
-                    <p><strong>Discográfica:</strong> <?= $foundCd['discografica'] ?></p>
-                    <p><strong>Productor:</strong> <?= $foundCd['productor'] ?></p>
-                    <p><strong>Género:</strong> <?= $foundCd['genero'] ?></p>
-                    <p><?= $foundCd['texto'] ?></p>
+                    <h2><?= $foundCd->titulo ?></h2>
+                    <p><strong>Discográfica:</strong> <?= $foundCd->discografica ?></p>
+                    <p><strong>Productor:</strong> <?= $foundCd->productor ?></p>
+                    <p><strong>Género:</strong> <?= $foundCd->genero ?></p>
+                    <p><?= $foundCd->texto ?></p>
                 </div>
             </div>
         <?php

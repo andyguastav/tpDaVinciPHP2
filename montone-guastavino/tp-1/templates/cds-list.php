@@ -1,4 +1,7 @@
 <?php
+//Incluir clase cds
+require_once __DIR__ . '/../classes/Cds.php';
+
 // Incluir la conexion
 require_once __DIR__ . '/../assets/mysql/conexion.php';
 // Armar la query
@@ -7,7 +10,7 @@ $stmt = $db->prepare($query);
 $stmt->execute();
 
 //Fetch
-$stmt->setFetchMode(mode:PDO::FETCH_ASSOC);
+$stmt->setFetchMode(PDO::FETCH_CLASS, 'Cds');
 $cdsData= $stmt->fetchAll(); 
 ?>
 
@@ -20,13 +23,13 @@ $cdsData= $stmt->fetchAll();
             ?>
             <li class="cd-card">
                 <div>
-                    <a href="index.php?seccion=detalle&cd_id=<?= $cd['cd_id'] ?>">
-                        <img src="<?= $cd['imagen'] ?>" alt="<?= $cd['titulo'] ?>" class="cd-image">
-                        <h2 class="cd-title"><?= $cd['titulo'] ?></h2>
-                        <p class="cd-sinopsis"><?= $cd['sinopsis'] ?></p>
-                        <p class="cd-precio"><?= $cd['precio'] ?></p>
+                    <a href="index.php?seccion=detalle&cd_id=<?= $cd->cd_id ?>">
+                        <img src="<?= $cd->imagen ?>" alt="<?= $cd->titulo ?>" class="cd-image">
+                        <h2 class="cd-title"><?= $cd->titulo ?></h2>
+                        <p class="cd-sinopsis"><?= $cd->sinopsis ?></p>
+                        <p class="cd-precio"><?= $cd->precio ?></p>
                     </a>
-                    <a class="cd-button" href="index.php?seccion=detalle&cd_id=<?= $cd['cd_id'] ?>">Ver Detalle</a>
+                    <a class="cd-button" href="index.php?seccion=detalle&cd_id=<?= $cd->cd_id ?>">Ver Detalle</a>
                 </div>
             </li>
             <?php
