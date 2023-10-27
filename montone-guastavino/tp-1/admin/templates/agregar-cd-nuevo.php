@@ -5,7 +5,7 @@
 </head>
 <body>
     <h2>Agregar un nuevo CD</h2>
-    <form action="acciones/agregar-nuevo-cd.php" method="POST">
+    <form action="acciones/procesar-agregar-nuevo-cd.php" method="POST">
         <label for="titulo">Título:</label>
         <input type="text" id="titulo" name="titulo" required><br><br>
 
